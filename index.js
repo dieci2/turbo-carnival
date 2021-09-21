@@ -9,7 +9,13 @@ const bubbleSort = (inputArr) => {
             }
         }
     }
+
+
     
     // hi 
     return inputArr;
 };
+
+if ("hi".length === 2) {
+    console.log('hi')
+}
