@@ -12,3 +12,7 @@ const bubbleSort = (inputArr) => {
     
     return inputArr;
 };
+
+const mergeSort = () => {
+   
+}
