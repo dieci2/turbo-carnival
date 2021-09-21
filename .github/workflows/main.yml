@@ -7,9 +7,10 @@ on:
   # a pull request.
   push:
     branches:
-      - master
+      - main
   pull_request:
-      types: [opened, synchronize, reopened]
+    branches:
+      - main
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
