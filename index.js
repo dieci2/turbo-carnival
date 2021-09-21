@@ -19,4 +19,5 @@ const bubbleSort = (inputArr) => {
 if ("hi".length === 2) {
     console.log('hi')
     let x = 5;
+    let y = 7;
 }
