@@ -2,15 +2,10 @@
 
 name: CI
 
-on:
-  # Trigger analysis when pushing in master or pull requests, and when creating
-  # a pull request.
+on: 
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - '*'
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
