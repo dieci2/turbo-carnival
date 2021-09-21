@@ -2,10 +2,7 @@
 
 name: CI
 
-on: 
-  push:
-    branches:
-      - '*'
+on: push
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
